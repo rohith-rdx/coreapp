@@ -1,0 +1,78 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+#box2{
+  padding: 1% 3% 1% 3%;
+  background-color: #191c24;
+  border-radius: 14px;
+  float: right;
+  margin-top: 4%;
+  margin-left: 1%;
+  margin-right: 7%; 
+  width: 100%;
+}
+#box2 img{
+  float: left;
+  margin-right: 83px;
+}
+#box2 h5{
+    float: left;
+  margin-right: 40px;
+}
+h5{
+  font-weight: 400;
+  margin-top: 10px;
+  color: #6c7293;
+}
+h5 span{
+  font-weight: 400;
+  margin-top: 10px;
+  color: #6c7293;
+}
+#hiddendiv{
+  height: auto;
+  width: 90%;
+  float: right;
+  padding: 1%;
+
+}
+#box2 img{
+  margin-top: 15px;
+}
+
+  </style>
+      </head>
+<body>
+
+<div class="mt-2 ml-5" style="font-size: 20px;font-weight: 600;margin-left:40px; color: #6c7293;">ASSIGNED TASK</div>
+<div id="hiddendiv">
+
+ 
+    <div id="box2" class="shadow">
+    <a href="/coreapp/TSsubmitted">
+    <img src="{% static '/images/circle.png' %}" width="20" height="20" alt="" style="margin-left: -5px; margin-top: 8px;" >
+    <h5 >test</h5>
+    <h5 ><span>name</span></h5>
+    <h5 >Jan. 11, 2022</h5>
+    <h5 ><span>Assigned by</span></h5><h5>MANAGER</h5>
+    </a>
+    </div>
+    <div id="box2" class="shadow " style="margin-top: 2%;" >
+        <a href="/coreapp/TSassigned">
+          <img src="{% static '/images/circle.png' %}" width="20" height="20" alt="" style="margin-left: -5px; margin-top: 8px;" >
+        <h5  >test</h5>
+        <h5 ><span>name</span></h5>
+        <h5 >Jan. 11, 2022</h5>
+        <h5 ><span>Assigned by</span>
+        </h5><h5>MANAGER</h5><h5>&nbsp;&nbsp; submitted</h5>
+         </a>
+        </div>
+
+</div>
+</div>
+</div>
+</body>
+{% endblock %}
+</html>
