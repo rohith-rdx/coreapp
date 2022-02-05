@@ -10,5 +10,4 @@ urlpatterns=[
     re_path(r'^TSsubmitted$', views.TSsubmitted, name='TSsubmitted'),
     re_path(r'^TStask$', views.TStask, name='TStask'),
     re_path(r'^TSsucess$', views.TSsucess, name='TSsucess'),
-    re_path(r'^TSmodal$', views.TSmodal, name='TSmodal'),
 ]

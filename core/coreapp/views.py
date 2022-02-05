@@ -18,5 +18,4 @@ def TSsubmitted(request):
     return render(request,'TSsubmitted.html')
 def TSsucess(request):
     return render(request,'TSsucess.html')
-def TSmodal(request):
-    return render(request,'TSmodal.html')
+
