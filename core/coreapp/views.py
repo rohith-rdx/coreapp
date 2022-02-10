@@ -19,3 +19,15 @@ def TSsubmitted(request):
 def TSsucess(request):
     return render(request,'TSsucess.html')
 
+# manager module
+# Employee 
+
+def Manager_index(request):
+    return render(request,'Manager_index.html')
+def Manager_employees(request):
+    return render(request,'Manager_employees.html')
+def Manager_tl(request):
+    return render(request,'Manager_tl.html')
+def Manager_tl_dashboard(request):
+    return render(request,'Manager_tl_dashboard.html')
+
